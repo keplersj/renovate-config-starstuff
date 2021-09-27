@@ -1,0 +1,27 @@
+{
+  "name": "renovate-config-starstuff",
+  "version": "1.0.0",
+  "description": "Renovate Configuration focused on automatic merging and semantic releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keplersj/renovate-config-starstuff.git"
+  },
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/renovate-config-starstuff/issues"
+  },
+  "homepage": "https://github.com/keplersj/renovate-config-starstuff#readme",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "automerge": true
+    }
+  }
+}
